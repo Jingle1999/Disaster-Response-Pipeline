@@ -27,11 +27,16 @@ o	models
  -	train_classifier.py
 
 1st) For achieving good results make sure, that you have a 64bit version of Python installed as well as running
+
 2nd) Implement ETL pipeline by performing process_data.py in the data-folder
+
 3rd) Train and improve the data on the ML-pipeline by starting train_classifier.py > used ada boost for final classification. 
 Good: sequential learning technique in order to gradually improve classification. 
 Not good: each predictor can only be trained after the previous predictor has been trained and evaluated, which makes the process a bit slower
+
 4th) Initiate the webapp with run.py
+
 5th) Go on http://localhost:3001/ 
+
 6th) Et voilà
 
