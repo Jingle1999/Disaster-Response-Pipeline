@@ -5,9 +5,13 @@ Disaster Response Pipeline - Identifying messages that matter out of social medi
 “Following a Disaster, typically you’ll get millions and millions of communications either direct or via social media right at the time when disaster response organisations have the least capacity to filter and then pull out the messages which are the most important. And often one of every thousand messages might be relevant to the data response professional. In order to respond appropriately we need to filter the message and need to find the messages that matter to the different organisations as they take care of different problems; one organisation will take care about water, another about medical aid, etc.” (Udacity Datascience Nanodegree Program – introduction to the Data Response Pipeline-project).
 
 The task basically is split up into 4 parts with the Machine Learning Pipeline as central analytical part.
+
 > Extract, Transform, Load the clean data (ETL) into a SQL-lite database
+
 > Natural Language Processing (NLP), especially by performing starting-verb-extraction
+
 > Machine Learning Pipeline (MLP) for analysing the data
+
 > Visualisation of results in a WebApp that performs the classification
 
 In order to understand how the different files work together (ETL, NLP, MLP, Web App) I’d like to show the file structure on my local computer: 
